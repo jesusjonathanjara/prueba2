@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Taller de Chapa y Pintura</title>
+    <meta name="description" content="Taller especializado en reparación de golpes, pintura personalizada y restauración de vehículos.">
+
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/default.css" id="theme-color">
+
+    <style>
+        body {
+            background: url('img/auto.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado -->
+<section class="py-7 text-center text-white" id="home" style="position: relative; overflow: hidden; height: 100vh;">
+    <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+        <source src="./img/video/autolujo.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+    </video>
+    <div class="container" style="position: relative; z-index: 1;">
+        <h1 class="heading-black text-capitalize">Taller de Chapa y Pintura</h1>
+        <p class="lead py-3">Especialistas en reparación de golpes, pintura personalizada y restauración de vehículos.</p>
+        <a href="https://wa.me/5491164354069" target="_blank" class="btn btn-success">
+            <i class="fa fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.instagram.com/jjgjara/" target="_blank" class="btn ml-2" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white;">
+            <i class="fa fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.facebook.com/romina.preto/" target="_blank" class="btn btn-blue ml-2" style="background-color: #1877f2; color: white;">
+            <i class="fa fa-facebook"></i> Facebook
+        </a>
+    </div>
+</section>
+
+<!-- Servicios -->
+<section class="py-7" id="servicios">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>Reparación de Golpes</h3>
+                <p>Reparamos abolladuras y daños en la carrocería de tu vehículo con resultados impecables.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Pintura Personalizada</h3>
+                <p>Ofrecemos pintura de alta calidad y personalización para que tu auto luzca único.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Restauración</h3>
+                <p>Restauramos vehículos clásicos y modernos, devolviéndoles su esplendor original.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Galería -->
+<section class="py-7 bg-light" id="galeria">
+    <div class="container">
+        <h2 class="text-center" style="color: black;">Galería de Trabajos</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="img/at1.jpg" class="img-fluid rounded" alt="Trabajo 1">
+            </div>
+            <div class="col-md-4">
+                <img src="img/at2.jpg" class="img-fluid rounded" alt="Trabajo 2">
+            </div>
+            <div class="col-md-4">
+                <img src="img/auto.jpg" class="img-fluid rounded" alt="Trabajo 3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacto -->
+<section class="py-7" id="contacto">
+    <div class="container">
+        <h2 class="text-center">Contáctanos</h2>
+        <form action="https://formsubmit.co/alimati_14@hotmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://tu-sitio.com/gracias.html">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" name="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo" name="email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div id="confirmationMessage" class="text-center mt-4" style="display: none;">
+            <p class="text-success">¡Tu mensaje ha sido enviado correctamente!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white text-center">
+    <p>&copy; 2025 Taller de Chapa y Pintura. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    // Animación suave para los enlaces
+    $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
+
+    // Mostrar mensaje de confirmación después de enviar el formulario
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('confirmationMessage').style.display = 'block';
+        this.reset();
+    });
+</script>
+</body>
+</html>
